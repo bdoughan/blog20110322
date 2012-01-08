@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+   <node name="first-name">Jane</node>
+   <node name="last-name">Doe</node>
+   <node name="address">
+      <node name="street">123 A Street</node>
+   </node>
+   <node name="phone-number" type="work">555-1111</node>
+   <node name="phone-number" type="cell">555-2222</node>
+</node>
