@@ -1,12 +1,7 @@
 package blog.predicate;
 
 import java.util.List;
-
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
-
+import javax.xml.bind.annotation.*;
 import org.eclipse.persistence.oxm.annotations.XmlPath;
 
 @XmlRootElement(name="node")
@@ -23,7 +18,7 @@ public class Customer {
      @XmlPath("node[@name='address']")
      private Address address;
 
-    @XmlPath("node[@name='phone-number']")
-    private List<PhoneNumber> phoneNumbers;
+     @XmlPath("node[@name='phone-number']")
+     private List<PhoneNumber> phoneNumbers;
 
 }
