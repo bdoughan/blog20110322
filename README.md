@@ -14,7 +14,7 @@ In EclipseLink 2.3 the @XmlPath annotation was enhanced to support predicates.  
     public class Customer {
   
         @XmlPath("node[@name='name']/text()")
-        private String lastName;
+        private String name;
  
         @XmlPath("node[@name='address']")
         private Address address;
