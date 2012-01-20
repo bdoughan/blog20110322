@@ -4,7 +4,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.bdoughan.blog</groupId>
-    <artifactId>blog.predicate</artifactId>
+    <artifactId>blog20110322</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
     <name>Map to Element based on an Attribute Value with EclipseLink JAXB (MOXy) </name>
