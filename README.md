@@ -8,7 +8,7 @@ This is the complete source code for the following blog post:
 Summary
 -------
 
-In EclipseLink 2.3 the @XmlPath annotation was enhanced to support predicates.  This allows us to map the class below:
+In EclipseLink 2.3, the @XmlPath annotation was enhanced to support predicates.  This allows us to map the Class below:
 
     @XmlRootElement(name="node")
     public class Customer {
@@ -24,7 +24,7 @@ In EclipseLink 2.3 the @XmlPath annotation was enhanced to support predicates.  
  
     }
     
-To the following XML:
+to the following XML:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <node>
